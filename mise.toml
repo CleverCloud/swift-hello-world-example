@@ -1,0 +1,7 @@
+[tasks.build]
+run = "swiftc server.swift -static-executable"
+
+[tasks.run]
+run = "./server"
+
+
