@@ -41,7 +41,8 @@ while true {
     recv(c, &buf, 1024, 0)
 
     // Send response
-    let resp = "HTTP/1.1 200 OK\r\nContent-Length: 14\r\n\r\nHello, from Swift on Clever Cloud!\n"
+    let body = "Hello, from Swift on Clever Cloud!\n"
+    let resp = "HTTP/1.1 200 OK\r\nContent-Length: \(body.utf8.count)\r\n\r\n\(body)"
 
     _ = resp.data(using: .utf8)?.withUnsafeBytes {
         send(c, $0.bindMemory(to: UInt8.self).baseAddress, $0.count, 0)

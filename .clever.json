@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "app_id": "app_14b3cc25-6919-455d-985b-8ebe139d4fb6",
+      "org_id": "user_dca6df25-1b57-4913-964e-86d0f4dae5e6",
+      "deploy_url": "https://push-n3-par-clevercloud-customers.services.clever-cloud.com/app_14b3cc25-6919-455d-985b-8ebe139d4fb6.git",
+      "git_ssh_url": "git+ssh://git@push-n3-par-clevercloud-customers.services.clever-cloud.com/app_14b3cc25-6919-455d-985b-8ebe139d4fb6.git",
+      "name": "swift-hello-world-example",
+      "alias": "swift-hello-world-example"
+    }
+  ]
+}
